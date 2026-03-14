@@ -30,6 +30,7 @@ Ver versión
 docker --version
 ```
 
+---
 Descargar una imagen
 ```bash
 docker pull ubuntu
@@ -43,6 +44,7 @@ Eliminar imagen
 docker rmi image_name
 ```
 
+---
 Ejecutar contenedor interactivo (-i interactivo y -t terminal) a partir de una imagen
 ```bash
 docker run -it ubuntu
@@ -59,6 +61,7 @@ Eliminar contenedor
 ```bash
 docker rm container_id
 ```
+
 ---
 Montar volumen
 ```bash
@@ -71,6 +74,7 @@ docker run -v $(pwd)/data:/app/data ubuntu
 HOST_PATH : CONTAINER_PATH
 ```
 Entonces carpeta de mi computadora ($(pwd)/data) : carpeta dentro del contenedor (/app/data)
+
 ---
 Iniciar servicios Docker Compose
 ```bash
