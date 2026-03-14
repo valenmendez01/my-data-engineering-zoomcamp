@@ -59,7 +59,7 @@ Eliminar contenedor
 ```bash
 docker rm container_id
 ```
-<br>
+---
 Montar volumen
 ```bash
 docker run -v $(pwd)/data:/app/data ubuntu
@@ -71,7 +71,7 @@ docker run -v $(pwd)/data:/app/data ubuntu
 HOST_PATH : CONTAINER_PATH
 ```
 Entonces carpeta de mi computadora ($(pwd)/data) : carpeta dentro del contenedor (/app/data)
-<br>
+---
 Iniciar servicios Docker Compose
 ```bash
 docker compose up
