@@ -3,7 +3,7 @@
 
 Un data pipeline es un servicio o proceso que recibe datos como entrada y produce nuevos datos como salida.
 Básicamente es una cadena de pasos que mueve y transforma datos.
-* datos → transformación → almacenamiento
+* Datos → Transformación → Almacenamiento
 ```mermaid
 graph LR
     A[CSV File] --> B[Data Pipeline]
