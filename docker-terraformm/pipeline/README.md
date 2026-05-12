@@ -226,3 +226,21 @@ SELECT * FROM test;
 \q
 ```
 
+# NY Taxi Dataset e ingestión de datos
+
+## Jupiter
+Jupyter es una aplicación que te deja ejecutar código por bloques (celdas), ver resultados al instante y mezclar: código Python, tablas (pandas), gráficos, texto explicativo. Todo en el navegador.
+Jupyter usa tu .venv local para ejecutar notebooks que se conectan al Postgres del contenedor.
+
+* Instalar Jupyter
+```bash
+uv add --dev jupyter
+```
+
+* Iniciar Jupyter notebook para explorar los datos
+```bash
+uv run jupyter notebook
+```
+
+* Crear notebook
+En el browser de Jupyter ir a New/ Pythpn 3 (ipykernel) / renombrar a notebook.ipynb
